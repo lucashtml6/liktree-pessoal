@@ -12,7 +12,29 @@
   --btn-curriculo-bg-color: #1b0016;
   --btn-curriculo-color: #fff;
   --btn-curriculo-box-shadow: #11000e;
+  --btn-change-mode-color: #fff;
+  --nome-cargo-color: #fff;
 }
+
+:root.light {
+  --body-bg-color: #f0f0f0;
+  --card-gb-color: #ffffff;
+  --card-color: #fff;
+  --card-box-shadow-color: #00000009;
+  --img-border-color: #585858;
+  --img-box-shadow: #2b2a2a48;
+  --rede-social-bg-color: #e7e7e7;
+  --rede-color: #000000;
+  --rede-border-color: #000000;
+  --icon-bg-color: #b5ffe0;
+  --btn-curriculo-bg-color: #b5ffe0;
+  --btn-curriculo-color: #000;
+  --btn-curriculo-box-shadow:#8bfacc;
+  --btn-change-mode-color: #000000;
+  --nome-cargo-color: #000;
+}
+
+
 
 html {
   font-size: 62.5%;
@@ -34,7 +56,7 @@ main {
   position: absolute;
   top: 15px;
   right: 15px;
-  color: #fff;
+  color: var(--btn-change-mode-color);
   background-color: transparent;
   border: none;
   outline: none;
@@ -70,6 +92,7 @@ main {
   font-size: 2.7rem;
   text-transform: uppercase;
   text-align: center;
+  color: var(--nome-cargo-color);
 }
 
 .card .cargo {
@@ -78,6 +101,7 @@ main {
   font-weight: 400;
   margin-bottom: 15px;
   text-align: center;
+  color: var(--nome-cargo-color);
 }
 
 .card .redes {
