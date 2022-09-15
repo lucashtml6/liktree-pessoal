@@ -152,6 +152,7 @@ main {
 
 .card .btn-curriculo {
   background-color: var(--btn-curriculo-bg-color);
+  margin-top: 10px;
   color: var(--btn-curriculo-color);
   width: 60%;
   text-align: center;
@@ -159,4 +160,9 @@ main {
   padding: 10px 0;
   -webkit-box-shadow: 0px 2px 0px 2px var(--btn-curriculo-box-shadow); 
   box-shadow: 0px 2px 0px 2px var(--btn-curriculo-box-shadow);
+}
+
+.card .btn-curriculo:hover {
+  transform: translateY(2px);
+  box-shadow: none;
 }
